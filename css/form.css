@@ -1,0 +1,252 @@
+.user-name {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  margin-right: 15px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: rgb(0, 141, 197);
+  background-color: #212121;
+  padding: 8px 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.login-button:hover {
+  background-color: rgb(26, 68, 83);
+  border-style: solid;
+  border-color: #212121;
+  border-width: 1px;
+  border-radius: 50px;
+}
+
+.menu-member ul {
+  display: flex;
+}
+
+.menu-member li {
+  list-style-type: none;
+}
+
+.index-login-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.index-login-signup h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.index-login-signup p {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.index-login-signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-login-signup input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.index-login-signup input[type="text"],
+.index-login-signup input[type="password"] {
+  width: 250px;
+}
+
+.index-login-signup button {
+  padding: 10px 20px;
+  background-color: rgb(0, 141, 197);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.index-login-signup button:hover {
+  background-color: rgb(26, 68, 83);
+}
+
+
+.index-login-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.index-login-login h4 {
+  color: #3d3d3d;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.index-login-login p {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.index-login-login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-login-login input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.index-login-login input[type="text"],
+.index-login-login input[type="password"] {
+  width: 250px;
+}
+
+.index-login-login button {
+  padding: 10px 20px;
+  background-color: rgb(0, 141, 197);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.index-login-login button:hover {
+  background-color: rgb(26, 68, 83);
+}
+
+
+.profile {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.profile .username {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile .info {
+  margin-top: 20px;
+}
+
+.profile .info h3 {
+  font-size: 24px;
+  color: #555;
+}
+
+.profile .info p {
+  font-size: 16px;
+  color: #777;
+}
+
+.profile .about {
+  margin-top: 20px;
+}
+
+.profile .about h3 {
+  font-size: 24px;
+  color: #555;
+}
+
+.profile .about p {
+  font-size: 16px;
+  color: #777;
+}
+
+.profile .settings {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.profile .settings:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.profile-settings {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-settings h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-settings p {
+  font-size: 16px;
+  color: #777;
+}
+
+.profile-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.profile-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
