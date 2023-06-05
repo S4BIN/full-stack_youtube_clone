@@ -91,8 +91,7 @@
 
 .profile {
   display: flex;
-  width: 800px;
-  margin-top: 80px;
+  margin-top: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -100,7 +99,6 @@
 .left-side {
   display: flex;
   flex-direction: column;
-  height: 500px;
   width: 250px;
 }
 
@@ -124,6 +122,7 @@
 }
 
 .profile-intro p {
+  text-transform: uppercase;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -144,6 +143,10 @@
   border-radius: 20px;
 }
 
+.profile-intro a:hover {
+  background-color: #004288;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -155,7 +158,45 @@
   border-bottom-right-radius: 20px;
 }
 
+.right-side {
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 20px;
+}
 
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #202020;
+  color: #fff;
+  height: 100px;
+  padding: 20px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.videos h3 {
+  top: 10px;
+  text-align: left;
+}
+
+.videos p {
+  align-content: center;
+  text-align: center;
+}
 
 
 
