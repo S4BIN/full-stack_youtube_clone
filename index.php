@@ -98,32 +98,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="2.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React with firebase 9 (blog app with file upload)</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="3.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -131,12 +106,11 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="hidden-content">
@@ -148,7 +122,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="4.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -156,12 +130,11 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="hidden-content">
@@ -173,7 +146,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="5.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -181,12 +154,11 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="hidden-content">
@@ -198,57 +170,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="6.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="cwv.png" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React Table Sorting</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="7.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React Table Sorting</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="8.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -256,12 +178,11 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="hidden-content">
@@ -273,7 +194,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -281,12 +202,11 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="hidden-content">
@@ -298,7 +218,7 @@
                 <div class="video-content-cover">
                     <div class="video-content">
                         <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
+                            <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
@@ -306,12 +226,35 @@
                             </div>
                             <div class="detail">
                                 <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
+                                <div class="channel-name">user</div>
                                 <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
                                 </div>
-
+                            </div>
+                        </div>
+                        <div class="hidden-content">
+                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                            <img src="images/boat.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <div class="channel-logo">
+                                <img src="unnamed (7).jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3 class="title">Complete responsive website design</h3>
+                                <div class="channel-name">user</div>
+                                <div class="views-upload">
+                                    <div class="views">0 views • </div>
+                                    <div class="upload"> 1 sec. ago</div>
+                                </div>
                             </div>
                         </div>
                         <div class="hidden-content">

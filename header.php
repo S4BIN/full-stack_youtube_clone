@@ -43,7 +43,7 @@
                     }
                     else {
                 ?>
-                    <li><a href="signup.php" class="login-button">Sign in</a></li>
+                    <li><a href="signup.php" class="login-button">Sign up</a></li>
                     <li><a href="login.php" class="login-button">Log in</a></li>
                 <?php
                     }

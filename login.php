@@ -11,7 +11,7 @@
     <h4>LOGIN</h4>
     <p>Log in here after you signed up!</p>
     <form action="includes/login.inc.php" method="post">
-        <input type="text" name="uid" placeholder="Username">
+        <input type="text" name="uid" placeholder="Username/Email">
         <input type="password" name="pwd" placeholder="Password">
         <br>
         <button type="submit" name="submit">LOGIN</button>
