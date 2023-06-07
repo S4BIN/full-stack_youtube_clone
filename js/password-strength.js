@@ -15,37 +15,32 @@ function calculatePasswordStrength(password) {
     const length = password.length;
     let complexity = 0;
 
-    // Check for lowercase letters
     if (/[a-z]/.test(password)) {
         complexity++;
     }
-
-    // Check for uppercase letters
+ 
     if (/[A-Z]/.test(password)) {
         complexity++;
     }
 
-    // Check for numbers
     if (/[0-9]/.test(password)) {
         complexity++;
     }
 
-    // Check for special characters
     if (/[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(password)) {
         complexity++;
     }
 
-    // Assign a strength level based on the calculated complexity and length
     if (length < 8 || complexity < 2) {
-        return 0; // Weak
+        return 0;
     } else if (length < 10 || complexity < 3) {
-        return 1; // Fair
+        return 1;
     } else if (length < 12 || complexity < 4) {
-        return 2; // Good
+        return 2;
     } else if (length < 14 || complexity < 5) {
-        return 3; // Strong
+        return 3;
     } else {
-        return 4; // Very Strong
+        return 4;
     }
 }
 
