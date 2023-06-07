@@ -73,15 +73,15 @@
             <div class="video-container">
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                        <a href="" class="video-box">
                             <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -97,15 +97,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img1.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -121,15 +121,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img2.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -145,15 +145,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img3.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -169,15 +169,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img4.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -193,15 +193,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img2.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -217,15 +217,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="images/boat.jpg" alt="">
+                        <a href="" class="video-box">
+                            <img src="images/img5.png" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
@@ -241,15 +241,15 @@
                 </div>
                 <div class="video-content-cover">
                     <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+                        <a href="" class="video-box">
                             <img src="images/boat.jpg" alt="">
                         </a>
                         <div class="video-details">
                             <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
+                                <img src="images/profile-img.png" alt="">
                             </div>
                             <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
+                                <h3 class="title">The title, thumbnail and details of the video are set as an example</h3>
                                 <div class="channel-name">user</div>
                                 <div class="views-upload">
                                     <div class="views">0 views • </div>
