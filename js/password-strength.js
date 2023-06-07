@@ -1,74 +1,86 @@
-const passwordInput = document.getElementById('password');
-const passwordStrength = document.getElementById('password-strength');
+const passwordInput = document.querySelector('input[name="pwd"]');
+const passwordStrengthText = document.querySelector('.password-strength-text');
 
-passwordInput.addEventListener('input', () => {
-  const password = passwordInput.value;
-  const strength = calculatePasswordStrength(password);
-  const strengthText = getStrengthText(strength);
-  const strengthClass = getStrengthClass(strength);
+passwordInput.addEventListener('input', checkPasswordStrength);
 
-  passwordStrength.textContent = strengthText;
-  passwordStrength.className = strengthClass;
-});
+function checkPasswordStrength() {
+    const password = passwordInput.value;
+    const passwordStrength = calculatePasswordStrength(password);
+
+    passwordStrengthText.textContent = getPasswordStrengthText(passwordStrength);
+    passwordStrengthText.className = `password-strength-text ${getPasswordStrengthClass(passwordStrength)}`;
+}
 
 function calculatePasswordStrength(password) {
-  // Add your password strength calculation logic here
-  // Example: Check for length, uppercase, lowercase, numbers, and special characters
-  let strength = 0;
+    const length = password.length;
+    let complexity = 0;
 
-  if (password.length >= 8) {
-    strength++;
-  }
-  if (/[a-z]/.test(password)) {
-    strength++;
-  }
-  if (/[A-Z]/.test(password)) {
-    strength++;
-  }
-  if (/[0-9]/.test(password)) {
-    strength++;
-  }
-  if (/[!@#$%^&*]/.test(password)) {
-    strength++;
-  }
+    // Check for lowercase letters
+    if (/[a-z]/.test(password)) {
+        complexity++;
+    }
 
-  return strength;
+    // Check for uppercase letters
+    if (/[A-Z]/.test(password)) {
+        complexity++;
+    }
+
+    // Check for numbers
+    if (/[0-9]/.test(password)) {
+        complexity++;
+    }
+
+    // Check for special characters
+    if (/[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(password)) {
+        complexity++;
+    }
+
+    // Assign a strength level based on the calculated complexity and length
+    if (length < 8 || complexity < 2) {
+        return 0; // Weak
+    } else if (length < 10 || complexity < 3) {
+        return 1; // Fair
+    } else if (length < 12 || complexity < 4) {
+        return 2; // Good
+    } else if (length < 14 || complexity < 5) {
+        return 3; // Strong
+    } else {
+        return 4; // Very Strong
+    }
 }
 
-function getStrengthText(strength) {
-  switch (strength) {
-    case 0:
-      return '';
-    case 1:
-      return 'Weak';
-    case 2:
-      return 'Fair';
-    case 3:
-      return 'Good';
-    case 4:
-      return 'Strong';
-    case 5:
-      return 'Very Strong';
-    default:
-      return '';
-  }
+function getPasswordStrengthText(passwordStrength) {
+    // Return the text representation of the password strength level
+    switch (passwordStrength) {
+        case 0:
+            return 'Weak';
+        case 1:
+            return 'Fair';
+        case 2:
+            return 'Good';
+        case 3:
+            return 'Strong';
+        case 4:
+            return 'Very Strong';
+        default:
+            return '';
+    }
 }
 
-function getStrengthClass(strength) {
-  switch (strength) {
-    case 0:
-      return '';
-    case 1:
-      return 'weak';
-    case 2:
-      return 'fair';
-    case 3:
-      return 'good';
-    case 4:
-      return 'strong';
-    case 5:
-      return 'very-strong';
-    default:
-      return '';
-  }
+function getPasswordStrengthClass(passwordStrength) {
+    // Return the CSS class based on the password strength level
+    switch (passwordStrength) {
+        case 0:
+            return 'weak';
+        case 1:
+            return 'fair';
+        case 2:
+            return 'good';
+        case 3:
+            return 'strong';
+        case 4:
+            return 'very-strong';
+        default:
+            return '';
+    }
 }

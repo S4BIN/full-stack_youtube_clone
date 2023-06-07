@@ -264,9 +264,13 @@
 
 
 
+.error-message {
+  color: red;
+  font-size: 12px;
+}
 
-#password-strength {
-  margin-top: 10px;
+.password-strength-text {
+  font-size: 15px;
   font-weight: bold;
 }
 
