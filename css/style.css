@@ -313,6 +313,10 @@ img {
     padding: 10px;
 }
 
+.video-content-cover img{
+    border-radius: 10px;
+}
+
 .video-box {
     position: relative;
     width: auto;
