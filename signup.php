@@ -12,10 +12,12 @@
     <p>Don't have an account yet? Sign up here! </p>
     <form action="includes/signup.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username">
-        <input type="password" name="pwd" placeholder="Password">
+        <input type="password" name="pwd" id="password" placeholder="Password">
         <input type="password" name="pwdrepeat" placeholder="Repeat Password">
         <input type="text" name="email" placeholder="E-mail">
+        <div id="password-strength"></div>
         <br>
         <button type="submit" name="submit">SIGN UP</button>
     </form>
 </div>
+<script src="js/password-strength.js"></script>

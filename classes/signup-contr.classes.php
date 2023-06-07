@@ -14,33 +14,71 @@ class SignupContr extends Signup{
     }
 
     public function signupUser() {
+
         if($this->emptyInput() == false) {
-            // echo "Empty input!";
             header("location: ../signup.php?error=emptyinput");
             exit();
         }
         if($this->invalidUid() == false) {
-            // echo "Invalid username!";
             header("location: ../signup.php?error=username");
             exit();
         }
         if($this->invalidEmail() == false) {
-            // echo "Invalid email!";
             header("location: ../signup.php?error=email");
             exit();
         }
         if($this->pwdMatch() == false) {
-            // echo "Passwords don't match!";
             header("location: ../signup.php?error=passwordmatch");
             exit();
         }
+        if($this->passwordStrength() == false) {
+            header("location: ../signup.php?error=weakpassword");
+            exit();
+        }
         if($this->uidTakenCheck() == false) {
-            // echo "Username or email taken!";
             header("location: ../signup.php?error=useroremailtaken");
             exit();
         }
 
         $this->setUser($this->uid, $this->pwd, $this->email);
+    }
+
+    private function passwordStrength() {
+        $password = $this->pwd;
+
+        // Define your password strength requirements
+        $minimumLength = 8;
+        $requireUppercase = true;
+        $requireLowercase = true;
+        $requireNumbers = true;
+        $requireSpecialChars = true;
+
+        // Password length check
+        if (strlen($password) < $minimumLength) {
+            return false;
+        }
+
+        // Uppercase check
+        if ($requireUppercase && !preg_match('/[A-Z]/', $password)) {
+            return false;
+        }
+
+        // Lowercase check
+        if ($requireLowercase && !preg_match('/[a-z]/', $password)) {
+            return false;
+        }
+
+        // Numbers check
+        if ($requireNumbers && !preg_match('/[0-9]/', $password)) {
+            return false;
+        }
+
+        // Special characters check
+        if ($requireSpecialChars && !preg_match('/[^A-Za-z0-9]/', $password)) {
+            return false;
+        }
+
+        return true;
     }
 
 
