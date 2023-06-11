@@ -60,7 +60,7 @@ hr {
 }
 
 
-/* header starts here */
+/* header */
 
 .header {
     position: fixed;
@@ -191,7 +191,7 @@ img {
 }
 
 
-/* sidebar stars here */
+/* sidebar */
 
 .sidebar {
     padding-top: 10px;
@@ -224,7 +224,7 @@ img {
 }
 
 
-/* main content starts here */
+/* main content */
 
 .content {
     width: calc(100vw - 240px);
@@ -260,7 +260,7 @@ img {
 }
 
 
-/* video container startrs here  */
+/* video container */
 
 .video-container {
     display: grid;
@@ -407,7 +407,7 @@ img {
 }
 
 
-/* responsive starts here */
+/* responsive */
 
 @media (max-width:1200px) {
     .sidebar {

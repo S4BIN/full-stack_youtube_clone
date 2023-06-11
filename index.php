@@ -259,7 +259,7 @@
                         </div>
                         <div class="hidden-content">
                             <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to playlist</div>
                         </div>
                     </div>
                 </div>
@@ -269,5 +269,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>

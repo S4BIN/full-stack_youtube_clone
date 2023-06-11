@@ -11,6 +11,7 @@
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">   
     <link rel="stylesheet" href="css/form.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/profile.css?v=<?php echo time(); ?>">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
