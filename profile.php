@@ -1,16 +1,25 @@
 <?php
-    include_once "header.php";
-
-    include "classes/dbh.classes.php";
-    include "classes/profileinfo.classes.php";
-    include "classes/profileinfo-view.classes.php";
-    $profileInfo = new ProfileInfoView();
+include_once "header.php";
+include "classes/dbh.classes.php";
+include "classes/profileinfo.classes.php";
+include "classes/profileinfo-view.classes.php";
+$profileInfo = new ProfileInfoView();
 ?>
 
 <section class="profile">
     <div class="left-side">
         <div class="profile-intro">
-            <img src="images/profile-pic.jpg" alt="">
+            <?php
+                // Retrieve the image path or filename from the database
+                $imagePath = $profileInfo->fetchImagePath($_SESSION["userid"]);
+                if (!empty($imagePath)) {
+                    // Display the profile image if available
+                    echo '<img src="imageUpload/' . $imagePath . '" alt="">';
+                } else {
+                    // Display a default image if no profile image is available
+                    echo '<img src="images/profile-pic.jpg" alt="">';
+                }
+            ?>
             <p>
                 <?php
                     echo $_SESSION["useruid"];

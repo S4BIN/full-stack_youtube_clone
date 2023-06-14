@@ -28,6 +28,12 @@ class ProfileInfoContr extends ProfileInfo {
         $this->setNewProfileInfo($about, $introTitle, $introText, $this->userId);
     }
 
+    public function updateImageInfo($imagePath) {
+        $sql = "UPDATE profiles SET image_path = ? WHERE users_id = ?";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute([$imagePath, $this->userId]); // Use $this->userId instead of $this->id
+    }
+
     private function emptyInputCheck($about, $introTitle, $introText) {
         $result;
         if(empty($about) || empty($introTitle) || empty($introText)) {

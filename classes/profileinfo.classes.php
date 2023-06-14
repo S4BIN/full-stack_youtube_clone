@@ -18,6 +18,8 @@ class ProfileInfo extends Dbh {
 
         $profileData = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+        $stmt = null;
+
         return $profileData;
     }
 
