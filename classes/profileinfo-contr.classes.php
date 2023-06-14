@@ -18,20 +18,18 @@ class ProfileInfoContr extends ProfileInfo {
     }
 
     public function updateProfileInfo($about, $introTitle, $introText) {
-        // Error handlers
         if($this->emptyInputCheck($about, $introTitle, $introText) == true) {
             header("location: ../profilesettings.php?error=emptyinput");
             exit();
         }
 
-        // Update profile info
         $this->setNewProfileInfo($about, $introTitle, $introText, $this->userId);
     }
 
     public function updateImageInfo($imagePath) {
         $sql = "UPDATE profiles SET image_path = ? WHERE users_id = ?";
         $stmt = $this->connect()->prepare($sql);
-        $stmt->execute([$imagePath, $this->userId]); // Use $this->userId instead of $this->id
+        $stmt->execute([$imagePath, $this->userId]);
     }
 
     private function emptyInputCheck($about, $introTitle, $introText) {

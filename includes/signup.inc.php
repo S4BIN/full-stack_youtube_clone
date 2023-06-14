@@ -25,11 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $profileInfo = new ProfileInfoContr($userId, $uid);
         $profileInfo->defaultProfileInfo();
 
-        // Going back to the front page
         header("location: ../index.php?error=none");
         exit();
     } else {
-        // Redirect back to signup page with the specific error
         header("location: ../signup.php?error=" . urlencode($result));
         exit();
     }

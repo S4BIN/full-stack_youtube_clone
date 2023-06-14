@@ -15,6 +15,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     //Running error handlers and user signup
     $login->loginUser();
 
-    //Going to back to front page
     header("location: ../index.php?error=none");
 }

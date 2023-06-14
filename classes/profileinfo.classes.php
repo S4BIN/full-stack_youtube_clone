@@ -44,5 +44,4 @@ class ProfileInfo extends Dbh {
 
         $stmt = null;
     }
-
 }

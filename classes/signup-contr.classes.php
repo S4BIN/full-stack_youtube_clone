@@ -46,7 +46,6 @@ class SignupContr extends Signup{
     private function passwordStrength() {
         $password = $this->pwd;
 
-        // Define your password strength requirements
         $minimumLength = 8;
         $requireUppercase = true;
         $requireLowercase = true;
@@ -80,7 +79,6 @@ class SignupContr extends Signup{
 
         return true;
     }
-
 
     private function emptyInput() {
         $result;
