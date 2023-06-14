@@ -10,13 +10,10 @@ $profileInfo = new ProfileInfoView();
     <div class="left-side">
         <div class="profile-intro">
             <?php
-                // Retrieve the image path or filename from the database
                 $imagePath = $profileInfo->fetchImagePath($_SESSION["userid"]);
                 if (!empty($imagePath)) {
-                    // Display the profile image if available
                     echo '<img src="imageUpload/' . $imagePath . '" alt="">';
                 } else {
-                    // Display a default image if no profile image is available
                     echo '<img src="images/profile-pic.jpg" alt="">';
                 }
             ?>
