@@ -8,9 +8,13 @@ The YouTube Clone project is a web application created using HTML, CSS, JavaScri
 2. Profile Page: Users have a dedicated profile page where they can modify three text sections and upload a profile image.
 3. Replicated Interface: The project aims to closely resemble the original YouTube interface, offering a similar user experience.
 
+## Screenshots 
+
+
 ## Installation
 1. Clone the repository:
-2. 2. Set up the development environment by installing XAMPP and launching Apache and MySQL servers.
+
+2. Set up the development environment by installing XAMPP and launching Apache and MySQL servers.
 
 3. Import the project's database schema into your MySQL database.
 
@@ -29,10 +33,3 @@ The YouTube Clone project is a web application created using HTML, CSS, JavaScri
 - After logging in, click on the profile icon to access your profile page.
 - Modify the desired text sections and upload a profile image.
 
-## Contributing
-Contributions are welcome! To contribute to this project, follow these steps:
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request.
