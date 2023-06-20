@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location: ../index.php?error=none");
         exit();
     } else {
-        header("location: ../signup.php?error=" . urlencode($result));
+        header("location: ../login.php?error=none" . urlencode($result));
         exit();
     }
 }
