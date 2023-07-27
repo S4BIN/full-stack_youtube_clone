@@ -9,7 +9,11 @@ The YouTube Clone project is a web application created using HTML, CSS, JavaScri
 3. Replicated Interface: The project aims to closely resemble the original YouTube interface, offering a similar user experience.
 
 ## Screenshots 
-<img src="D:\Licenta\SS\ytcl1">
+![ytcl1](https://github.com/S4BIN/full-stack_youtube_clone/assets/118127389/8c51402a-1ff0-42d8-9fc4-1af08de09f6e)
+![ytcl2](https://github.com/S4BIN/full-stack_youtube_clone/assets/118127389/f6939879-65ea-4f12-9fe9-42288cccef95)
+![ytcl3](https://github.com/S4BIN/full-stack_youtube_clone/assets/118127389/3e80eefc-ddd6-4624-8d78-86e18b3a8461)
+![ytcl4](https://github.com/S4BIN/full-stack_youtube_clone/assets/118127389/fc5b2a50-e066-48bb-973c-6cacd8093737)
+![ytcl5](https://github.com/S4BIN/full-stack_youtube_clone/assets/118127389/ed3d33da-2226-4346-88fa-10923667747b)
 
 ## Installation
 1. Clone the repository:
