@@ -1,7 +1,7 @@
 # full-stack_youtube_clone
 
 ## Project Description
-The YouTube Clone project is a web application created using HTML, CSS, JavaScript, XAMPP, PHP, and MySQL. The purpose of this project is to replicate the main page of YouTube, providing users with a familiar interface and functionalities. The clone includes a sign-up and log-in feature, allowing users to create accounts and log in to access additional features.
+The YouTube Clone project is a web application created using HTML, CSS, JavaScript, PHP, and MySQL. The purpose of this project is to replicate the main page of YouTube, providing users with a familiar interface and functionalities. The clone includes a sign-up and log-in feature, allowing users to create accounts and log in to access additional features.
 
 ## Main Features
 1. Sign-Up and Log-In: Users can register for an account and log in to access personalized features.
@@ -9,7 +9,7 @@ The YouTube Clone project is a web application created using HTML, CSS, JavaScri
 3. Replicated Interface: The project aims to closely resemble the original YouTube interface, offering a similar user experience.
 
 ## Screenshots 
-
+<img src="D:\Licenta\SS\ytcl1">
 
 ## Installation
 1. Clone the repository:
